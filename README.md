@@ -37,18 +37,19 @@ With the previously instructions to run the application locally, it is possible 
 ## Creating Dockerfile
 
 Guide:
-Create a Docker Hub account
-Create a Github account
-Criate a Dockerfile for the application
-The name of the image must be [login from dockerhub]/[linuxtips-giropops-senhas:1.0]
-Push image to Docker hub, public
-Create a public repository calls LINUXtips-Giropops-Senhas
-Push the code and the Dockerfile
-Create the container using the image created
-The name of the container must be giropops-senhas
-The container need to be running
-Redis must be a container
-We need the variable REDIS_HOST enabled
+
+- Create a Docker Hub account
+- Create a Github account
+- Criate a Dockerfile for the application
+- The name of the image must be [login from dockerhub]/[linuxtips-giropops-senhas:1.0]
+- Push image to Docker hub, public
+- Create a public repository calls LINUXtips-Giropops-Senhas
+- Push the code and the Dockerfile
+- Create the container using the image created
+- The name of the container must be giropops-senhas
+- The container need to be running
+- Redis must be a container
+- We need the variable REDIS_HOST enabled
 
 To supply all the requirements of the application we can use an based image python:
 ```
