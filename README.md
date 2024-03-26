@@ -66,15 +66,19 @@ ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]
 ## Creating the image
 
 Creating the image locally:
+
 `docker login`
+
 `docker image build -t stheferri/linuxtips-giropops-senhas:1.0 .`
 
 Push the image to Dockerhub:
+
 `docker push stheferri/linuxtips-giropops-senhas:1.0`
 
 ## Creating the container
 
 Creating and running the container:
+
 `docker container run -d -p 5000:5000 --name giropops-senhas stheferri/linuxtips-giropops-senhas:1.0`
 
 ## Result
