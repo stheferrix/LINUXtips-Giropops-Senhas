@@ -1,4 +1,5 @@
-# Day 2 - Challenge 2 - LINUXtips-Giropops-Senhas
+# Day 2 - Challenge 2
+# LINUXtips-Giropops-Senhas
 
 This repositoy contain the project files to implement an application using a Dockerfile.
 The challenge is create a Dockerfile that has all the requirements.
